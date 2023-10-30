@@ -1,4 +1,5 @@
 const config = {
+    base: '',
     root: '.',
     build: {
       outDir: 'docs'

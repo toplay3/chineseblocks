@@ -1,0 +1,51 @@
+body { margin: 0; }
+
+#information {
+    position: fixed;
+    padding: 10px;
+    z-index: 1;
+    top: 0px;
+    pointer-events: none;
+}
+
+#instructionsButton {
+    position: fixed;
+    z-index: 1;
+    top: 10px;
+    right: 10px;
+}
+
+#projections {
+    float: left;
+}
+
+#gameInfo {
+    color: white;
+    font-size: 16px;
+    float: right;
+    padding: 10px;
+}
+
+.p-container {
+    float: left;
+    margin: 5px 10px;
+}
+.projection-title {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+}
+.x-slice {
+    /* clear: both; */
+    float: left;
+}
+.y-slice {
+    width: 30px;
+    height: 30px;
+    outline: 1px solid white;
+    /* float: left; */
+}
+.y-slice.filled {
+    background-color: green;
+}

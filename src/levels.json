@@ -1,0 +1,119 @@
+[
+    {
+        "gameDimensions": {
+            "x": 3,
+            "y": 3,
+            "z": 3
+        },
+        "maxBlocks": 1,
+        "projections": {"top":[[false,false,false],[false,true,false],[false,false,false]],"front":[[false,false,false],[true,false,false],[false,false,false]],"side":[[false,false,false],[true,false,false],[false,false,false]]}
+    },
+    {
+        "gameDimensions": {
+            "x": 3,
+            "y": 3,
+            "z": 3
+        },
+        "maxBlocks": 3,
+        "projections": {"top":[[false,true,false],[false,false,false],[false,false,false]],"front":[[true,true,true],[false,false,false],[false,false,false]],"side":[[false,false,false],[true,true,true],[false,false,false]]}
+    },
+    {
+        "gameDimensions": {
+            "x": 3,
+            "y": 3,
+            "z": 3
+        },
+        "maxBlocks": 6,
+        "projections": {"top":[[false,true,false],[true,true,true],[false,true,false]],"front":[[true,false,false],[true,true,false],[true,false,false]],"side":[[false,true,false],[true,true,false],[false,true,false]]}
+    },
+    {
+        "gameDimensions": {
+            "x": 3,
+            "y": 3,
+            "z": 3
+        },
+        "maxBlocks": 7,
+        "projections": {"top":[[false,false,true],[true,true,true],[false,false,true]],"front":[[true,false,false],[true,true,true],[true,false,false]],"side":[[true,false,false],[true,true,true],[true,false,false]]}
+    },
+    {
+        "gameDimensions": {
+            "x": 3,
+            "y": 4,
+            "z": 3
+        },
+        "maxBlocks": 2,
+        "projections": {"top":[[false,false,false],[false,true,false],[false,false,false]],"front":[[false,false,false,false],[false,false,false,true],[false,false,false,false]],"side":[[false,false,false,false],[false,false,false,true],[false,false,false,false]]}
+    },
+    {
+        "gameDimensions": {
+            "x": 3,
+            "y": 3,
+            "z": 3
+        },
+        "maxBlocks": 3,
+        "projections": {"top":[[false,false,false],[false,true,true],[false,true,false]],"front":[[false,false,false],[true,true,false],[true,false,false]],"side":[[false,false,false],[true,true,false],[true,false,false]]}
+    },
+    {
+        "gameDimensions": {
+            "x": 3,
+            "y": 3,
+            "z": 3
+        },
+        "maxBlocks": 9,
+        "projections": {"top":[[true,true,true],[true,false,true],[true,true,true]],"front":[[true,true,true],[true,false,true],[true,true,true]],"side":[[true,true,true],[true,false,true],[true,true,true]]}
+    },
+    {
+        "gameDimensions": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+        },
+        "maxBlocks": 9,
+        "projections": {"top":[[true,false,false,false,true],[false,true,false,true,false],[false,false,true,false,false],[false,true,false,true,false],[true,false,false,false,true]],"front":[[true,false,false,false,true],[false,true,false,true,false],[false,false,true,false,false],[false,true,false,true,false],[true,false,false,false,true]],"side":[[true,false,false,false,true],[false,true,false,true,false],[false,false,true,false,false],[false,true,false,true,false],[true,false,false,false,true]]}
+    },
+    {
+        "gameDimensions": {
+            "x": 3,
+            "y": 3,
+            "z": 3
+        },
+        "maxBlocks": 9,
+        "projections": {"top":[[true,true,true],[true,true,true],[true,true,true]],"front":[[true,true,true],[true,true,true],[true,true,true]],"side":[[true,true,true],[true,true,true],[true,true,true]]}
+    },
+    {
+        "gameDimensions": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+        },
+        "maxBlocks": 18,
+        "projections": {"top":[[true,true,true,true,true],[true,false,false,false,true],[true,false,false,false,true],[true,false,false,false,true],[true,true,true,true,true]],"front":[[true,true,true,true,true],[true,false,false,false,true],[true,false,false,false,true],[true,false,false,false,true],[true,true,true,true,true]],"side":[[true,true,true,true,true],[true,false,false,false,true],[true,false,false,false,true],[true,false,false,false,true],[true,true,true,true,true]]}
+    },
+    {
+        "gameDimensions": {
+            "x": 3,
+            "y": 3,
+            "z": 3
+        },
+        "maxBlocks": 9,
+        "projections": {"top":[[true,true,true],[true,true,true],[true,true,true]],"front":[[true,true,true],[true,false,true],[true,true,true]],"side":[[true,true,true],[true,false,true],[true,true,true]]}
+    },
+    {
+        "gameDimensions": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+        },
+        "maxBlocks": 20,
+        "projections": {"top":[[true,true,true,true,true],[true,false,true,false,true],[true,true,false,true,true],[true,false,true,false,true],[true,true,true,true,true]],"front":[[true,true,true,true,true],[true,false,true,false,true],[true,true,false,true,true],[true,false,true,false,true],[true,true,true,true,true]],"side":[[true,true,true,true,true],[true,false,true,false,true],[true,true,false,true,true],[true,false,true,false,true],[true,true,true,true,true]]}
+    },
+    {
+        "gameDimensions": {
+            "x": 10,
+            "y": 10,
+            "z": 10
+        },
+        "maxBlocks": 1000,
+        "projections": {"top": null, "side": null, "front": null}
+    }
+]

@@ -7,13 +7,13 @@ import levels from './levels.json';
 const renderBlockCount = (blocksUsed: number) => {
     const blockCountElement = document.getElementById("blockCount");
     if (blockCountElement) {
-        blockCountElement.innerHTML = `<div>方块数: ${blocksUsed} / ${gameConfiguration.maxBlocks}</div>`;
+        blockCountElement.innerHTML = `<div>Blocks Used: ${blocksUsed} / ${gameConfiguration.maxBlocks}</div>`;
     }
 }
 const renderLevel = () => {
     const levelNumber = document.getElementById("levelNumber");
     if (levelNumber) {
-        levelNumber.innerHTML = `<div>关卡: ${gameConfiguration.levelNumber}</div>`;
+        levelNumber.innerHTML = `<div>Level: ${gameConfiguration.levelNumber}</div>`;
     }
 }
 const loadNextLevel = function() {
@@ -37,13 +37,13 @@ const loadNextLevel = function() {
     if (projectionsElement) {
         projectionsElement.innerHTML = "";
         if (gameConfiguration.projections.front) {
-            projectionsElement.appendChild(constructProjectionImage(gameConfiguration.projections.front!, "前", false));
+            projectionsElement.appendChild(constructProjectionImage(gameConfiguration.projections.front!, "front", false));
         }
         if (gameConfiguration.projections.side) {
-            projectionsElement.appendChild(constructProjectionImage(gameConfiguration.projections.side, "左", false));
+            projectionsElement.appendChild(constructProjectionImage(gameConfiguration.projections.side, "left", false));
         }
         if (gameConfiguration.projections.top) {
-            projectionsElement.appendChild(constructProjectionImage(gameConfiguration.projections.top, "上", true));
+            projectionsElement.appendChild(constructProjectionImage(gameConfiguration.projections.top, "top", true));
         }
     }
     renderBlockCount(0);

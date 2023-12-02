@@ -19,15 +19,15 @@
         <div id="blockCount"></div>
       </div>
     </div>
-    <button type="button" id="instructionsButton" class="btn btn-primary" data-toggle="modal" data-target="#instructionsDialog">游戏帮助</button>
+    <button type="button" id="instructionsButton" class="btn btn-primary" data-toggle="modal" data-target="#instructionsDialog">Help</button>
     <div class="modal fade" id="nextLevelDialog" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">过关成功</h5>
+            <h5 class="modal-title" id="exampleModalLongTitle">Solved!</h5>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">开始下一关</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Start Next Level</button>
           </div>
         </div>
       </div>
@@ -36,24 +36,23 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">游戏规则</h5>
+            <h5 class="modal-title" id="exampleModalLongTitle">Game Rules</h5>
           </div>
           <div class="modal-body">
             <p>
-              <b>目标：</b>
-            游戏的目标是使用与左上角给出的2d投影相匹配的块来构建3d对象。<br/>
-            从正面、左侧和顶部查看时，3d 对象的 2D 投影必须与相应的投影匹配，您最多只能使用指定数量的块。</p>
+              <b>Objective：</b><br/>
+              The goal of the game is to construct a 3D object using blocks that match the 2D projections given in the top left corner. <br/>The 2D projection of the 3D object must correspond to the respective projections when viewed from the front, left side, and top. You can only use a limited number of blocks as indicated by the blocks used field.</p>
             <p>
-              <b>控制：</b>
-              使用鼠标玩，<br/>
-              按住鼠标然后旋转视图，<br/>
-              滚动鼠标滚轮放大和缩小，<br/>
-              左键单击填出立方体，<br/>
-              右键单击删除立方体，<br/>
-              目前不能自由选择关卡，因此如果您刷新页面，它将重新回到第1关卡。</p>
+              <b>Controls：</b><br/>
+              Play using the mouse,<br/>
+              Click and drag left mouse button to rotate the view,<br/>
+              Scroll the mouse wheel to zoom in and out,<br/>
+              Left-click to place cubes,<br/>
+              Right-click to remove cubes,<br/>
+              Currently, you cannot freely choose levels, so if you refresh the page, it will reset to level 1.
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">好的</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
           </div>
         </div>
       </div>
